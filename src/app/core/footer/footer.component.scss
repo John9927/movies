@@ -1,0 +1,128 @@
+footer {
+  max-width: 100%;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0;
+  background-image: darkblue;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  background-color: darkblue;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+footer nav div.join {
+  text-align: right;
+  position: relative;
+  top: -36px;
+  right: 0;
+}
+
+
+footer nav div {
+  margin-right: 40px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+footer nav h3{
+font-weight: bold;
+font-size: 1.4em;
+line-height: 1.4em;
+text-transform: uppercase;
+color: #fff;
+white-space: nowrap;
+}
+
+
+footer nav ul li {
+  line-height: 1.6em;
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+footer nav, footer nav a {
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  margin-top: 80px;
+}
+
+.footer_nav{
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.join{
+  display: flex;
+  flex-direction: column;
+}
+
+footer nav a.rounded {
+  position: relative;
+  height: 10px;
+  border-radius: 10px;
+  top: 40px;
+  border-color: #fff;
+  background-color: #fff;
+  color: rgb(131, 207, 233);
+  font-size: 1.3em;
+  font-weight: bold;
+  display: inline-block;
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 1rem;
+  line-height: 0.7rem;
+}
+
+
+a, u {
+  text-decoration: none;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+h3{
+  margin-left: 40px;
+}

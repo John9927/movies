@@ -1,0 +1,123 @@
+
+
+<div class="container-card">
+  <div class="immagine">
+    <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{movies?.poster_path}}">
+  </div>
+  <div class="content">
+    <h2 class="title"><a>{{movies.original_title}}</a></h2>
+    <p class="date"><a>{{movies.release_date}}</a></p>
+  </div>
+  <div class="icones">
+      <button mat-icon-button class="menu-horiz" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon class="punti">more_horiz</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>list</mat-icon>
+      <span>Aggiungi alla lista</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>favorite</mat-icon>
+      <span>Preferito</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>turned_in</mat-icon>
+      <span>Whatchlist</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>star</mat-icon>
+      <span>Il tuo voto</span>
+    </button>
+  </mat-menu>
+  <div class="percent">
+    <img class="percent_img" src="assets/download.png">
+    <p class="percent_value">78<span class="percent_simbols">%</span></p>
+  </div>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+<div class="card style_1" style="position: relative;">
+  <div class="image">
+
+    <div class="wrapper">
+      <a class="image" href="/movie/739413" title="Mother/Android" style="width: 150px; height: 225px;">
+      <img loading="lazy" class="poster" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{movies?.poster_path}}" srcset="" alt="">
+      </a>
+    </div>
+
+    <div class="options" data-id="739413" data-object-id="5f516d5ec740d900348cdbc7" data-media-type="movie" data-role="tooltip">
+      <a class="no_click">
+        <div class="glyphicons">
+          <button mat-icon-button class="menu-horiz" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>more_horiz</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>list</mat-icon>
+          <span>Aggiungi alla lista</span>
+        </button>
+        <button mat-menu-item disabled>
+          <mat-icon>voicemail</mat-icon>
+          <span>Check voice mail</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>notifications_off</mat-icon>
+          <span>Disable alerts</span>
+        </button>
+      </mat-menu>
+    </div>
+  </a>
+    </div>
+  </div>
+  <div class="content">
+    <div class="consensus tight">
+      <div class="outer_ring">
+        <div class="user_score_chart 5f516d5ec740d900348cdbc7" data-percent="58.0" data-track-color="#423d0f" data-bar-color="#d2d531">
+          <div class="percent">
+              <img class="percent_img" src="assets/download.png">
+              <span class="icon icon-r58">{{movies.vote_average}}</span>
+
+          </div>
+        <canvas height="34" width="34"></canvas></div>
+      </div>
+    </div>
+
+
+    <h2><a href="/movie/739413" title="Mother/Android">{{movies.original_title}}</a></h2>
+    <p>{{movies.release_date}}</p>
+  </div>
+
+
+  <div class="hover 739413"></div>
+</div>
+-->

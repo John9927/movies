@@ -1,0 +1,286 @@
+
+.container{
+
+}
+
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  background-color: #fff;
+  margin-top: 64px;
+}
+
+
+section.new_index.taw_2021 {
+  height: auto;
+  max-height: none;
+  background: url(https://www.themoviedb.org/assets/2/v4/taw/2021/shape_8-fae706ec0da1ef4e0c48b6abfe1984cfb5808be9dfc01619b25b2a9691c43f56.svg) 50% 50% no-repeat;
+  margin-bottom: 20px;
+}
+
+
+section.new_index.taw_2021 div.search {
+  position: relative;
+  top: 20px;
+  right: 0;
+  z-index: 3;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+
+
+section.new_index form {
+  margin-top: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+section.new_index form input[type=text] {
+
+  width:100%;
+  height: 15px;
+  line-height: 46px;
+  font-size: 1.1em;
+  color: rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 2px solid orange;
+}
+
+
+
+
+section.new_index {
+  min-height: 300px;
+  height: calc(100vh / 2.5);
+  max-height: 360px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+
+
+section.inner_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+
+div.media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+section.new_index div.media {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+div.column_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+
+section.new_index.taw_2021 div.column_wrapper div.content_wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+div.media.discover div.content_wrapper {
+  flex-wrap: wrap;
+}
+
+
+div.column_wrapper div.content_wrapper {
+  max-width: var(--maxPrimaryPageWidth);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+section.new_index.taw_2021 div.numbers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+section.new_index.taw_2021 div.numbers h2 {
+  font-family: 'Space Mono';
+  font-size: 8em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 4px 0;
+  font-weight: 600;
+}
+
+section.new_index.taw_2021 div.taw h2 {
+  width: 100%;
+  font-size: 2.8em;
+  text-align: center;
+}
+
+
+
+section.new_index.taw_2021 div.taw {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+section.new_index.taw_2021 div.taw h3 a {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+}
+
+
+section.inner_content h3 a {
+  font-weight: 600;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+
+section.new_index.taw_2021 form input[type=submit] {
+  background: linear-gradient(to bottom, rgba(var(--taw2020Blue), 1) 0%, rgba(var(--taw2020DarkPink), 1) 100%);
+  color: #000;
+}
+
+section.new_index form input[type=submit] {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 46px;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  line-height: 46px;
+  top: 0;
+  right: -1px;
+  color: #fff;
+}
+
+
+input[type="submit"], button {
+  font-weight: 700;
+}
+
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+
+body * {
+  box-sizing: border-box;
+}
+
+
+section.new_index div.search {
+  width: 100%;
+}
+
+section.new_index.taw_2021[_ngcontent-jpi-c17] div.search[_ngcontent-jpi-c17] {
+  position: relative;
+  top: 20px;
+  right: 0;
+  z-index: 3;
+  padding-left: 540px;
+  padding-right: 540px;
+}
+
+
+section.new_index div.search {
+  width: 100%;
+}
+
+
+input[type="submit"], button {
+  font-weight: 700;
+}
+
+
+section.new_index.taw_2021[_ngcontent-nvb-c17] div.taw[_ngcontent-nvb-c17] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+section.new_index.taw_2021[_ngcontent-yxn-c17] div.numbers[_ngcontent-yxn-c17] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.taw{
+  margin-top: 5rem;
+}
+
+.numbers{
+  margin-top: 5rem;
+}
+

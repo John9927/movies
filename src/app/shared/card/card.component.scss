@@ -1,0 +1,208 @@
+.container-card{
+position: relative;
+}
+
+.immagine{
+  position: relative;
+}
+
+
+.menu-horiz{
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  height: 30px;
+  width: 30px;
+
+
+}
+
+.menu-horiz:hover{
+  background-color: rgb(27, 183, 235);
+
+
+}
+
+
+.mat-icon{
+  margin-left: -12px;
+  margin-top: -6px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+
+.title{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+
+.date{
+  line-height: 0%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.percent{
+  position: absolute;
+  bottom: 0px;
+}
+
+
+.percent_img{
+  background-color: black;
+  border-radius: 50%;
+}
+
+
+.percent_value{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+
+}
+
+.percent_simbols{
+  font-size: 0.6em;
+  position: absolute;
+  top: -4px;
+}
+
+.punti{
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+
+
+/*
+
+div.media.discover div.card div.image div.options {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 4;
+  opacity: 0.6;
+}
+
+
+div.media.discover a {
+  color: #000;
+}
+
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
+div.media.discover div.card div.image div.options div.glyphicons_v2 {
+  font-size: 1.6em;
+}
+
+
+.glyphicons_v2.circle-more.white {
+  background-image: url('https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-947-circle-more-white-4c440dfc1b0e626c70f4853dbbce9c4d1f2c5d8f3e05a7d3df47881cbd816adf.svg');
+}
+
+
+.glyphicons_v2.circle-more {
+  background-image: url('https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-947-circle-more-white-4c440dfc1b0e626c70f4853dbbce9c4d1f2c5d8f3e05a7d3df47881cbd816adf.svg');
+}
+
+
+
+.glyphicons_v2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+
+.menu-horiz{
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  width: 23px;
+  height: 23px;
+  opacity: 0.6;
+
+}
+
+.card {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  border: 1px solid rgba(var(--lightGrey), 1);
+  background-color: #fff;
+}
+
+.mat-icon{
+  margin-left: -8px;
+  margin-top: -3px;
+}
+
+
+.menu-horiz:hover{
+  background-color: rgb(27, 183, 235);
+
+
+}
+
+
+//percent
+
+div.media.discover div.card.style_1 div.content div.consensus {
+  position: absolute;
+  top: -19px;
+  left: 10px;
+}
+
+
+div.card div.consensus.tight .user_score_chart .percent .icon {
+  padding-top: 1px;
+  padding-left: 1px;
+  font-size: 1.3em;
+}
+
+
+div.consensus .user_score_chart canvas {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+*/
