@@ -1,29 +1,24 @@
-.container-card{
-position: relative;
-}
-
 .immagine{
   position: relative;
+}
+
+.icones {
+  position: absolute;
+  top: 10px;
+  left: 150px;
 }
 
 
 .menu-horiz{
   border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
 
-
+  &:hover {
+    background-color: rgb(27, 183, 235);
+    cursor: pointer;
+  }
 }
-
-.menu-horiz:hover{
-  background-color: rgb(27, 183, 235);
-
-
-}
-
 
 .mat-icon{
   margin-left: -12px;
@@ -57,7 +52,8 @@ position: relative;
 
 .percent{
   position: absolute;
-  bottom: 0px;
+  bottom: 15.5%;
+  margin-left: 10px;
 }
 
 
@@ -88,7 +84,8 @@ position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
-
+  margin-top: -2px;
+  margin-left: 0px;
 }
 
 

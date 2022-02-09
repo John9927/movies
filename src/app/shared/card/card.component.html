@@ -1,41 +1,39 @@
-
-
 <div class="container-card">
   <div class="immagine">
     <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{movies?.poster_path}}">
+    <div class="icones">
+      <button mat-icon-button class="menu-horiz" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon class="punti">more_horiz</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>list</mat-icon>
+          <span>Aggiungi alla lista</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>favorite</mat-icon>
+          <span>Preferito</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>turned_in</mat-icon>
+          <span>Whatchlist</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>star</mat-icon>
+          <span>Il tuo voto</span>
+        </button>
+      </mat-menu>
+    </div>
   </div>
   <div class="content">
     <h2 class="title"><a>{{movies.original_title}}</a></h2>
     <p class="date"><a>{{movies.release_date}}</a></p>
   </div>
-  <div class="icones">
-      <button mat-icon-button class="menu-horiz" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-    <mat-icon class="punti">more_horiz</mat-icon>
-  </button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>
-      <mat-icon>list</mat-icon>
-      <span>Aggiungi alla lista</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>favorite</mat-icon>
-      <span>Preferito</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>turned_in</mat-icon>
-      <span>Whatchlist</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>star</mat-icon>
-      <span>Il tuo voto</span>
-    </button>
-  </mat-menu>
   <div class="percent">
     <img class="percent_img" src="assets/download.png">
     <p class="percent_value">78<span class="percent_simbols">%</span></p>
   </div>
 </div>
-  </div>
 
 
 
